@@ -1,0 +1,44 @@
+.box{
+    width: 360px;
+    height: 640px;
+    padding: 0px 5px 0px 5px;
+    gap: 10px;
+    opacity: 0px;
+    background: radial-gradient(152.95% 83.67% at 54.44% 42.5%, #FFFFFF 50.47%, rgba(227, 225, 225, 0) 100%);
+}
+
+.box-in{
+    width: 350px;
+    height: 640px;
+    padding: 50px 10px 10px 10px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.second-box{
+    margin-top: 20px;
+}
+.second-box .box-inside{
+    width: 330px;
+    height: 100px;
+}
+
+.second-box .box-inside-textbox{
+    width: 213px;
+    height: 60px;
+    border: 1px 0px 0px 0px;
+    background: #DCF7C5;
+    border: 1px solid #FFFFFF;
+    margin-left: 7.1rem;
+}
+
+.second-box .box-inside-textbox-text{
+    width: 183px;
+    height: 40px;
+    color: #333333
+}
+
+.second-box .box-inside-time-textbox{
+    text-align: right;
+}
+

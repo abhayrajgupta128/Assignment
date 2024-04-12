@@ -1,0 +1,23 @@
+.tag{
+    width: 63px;
+    height: 30px;
+    gap: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F2F7FF;
+    border: 1px solid #4C82EF
+}
+
+.tag-name{
+    padding: 5px 10px 5px 10px;
+}
+
+.tag-name-in{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #4C82EF;
+}

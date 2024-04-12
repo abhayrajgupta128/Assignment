@@ -1,0 +1,125 @@
+.footer{
+    width: 360px;
+    height: 80px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(100.27deg, #EFF3FD 33.17%, rgba(239, 243, 253, 0) 122.24%);
+    border: 7px solid #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer-upper{
+    width: 340px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.footer-upper-left{
+    width: 265px;
+    height: 40px;
+    padding: 0px 10px 0px 20px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E3ECFF;
+    margin: 8px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-upper-left-text{
+    width: 215px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 8px;
+}
+
+.footer-upper-left-image{
+    margin-top: 8px;
+}
+
+.footer-upper-left-text p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #949494;
+}
+
+.footer-upper-right{
+    width: 70px; 
+    height: 40px;
+    left: 270px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #4C82EF;
+    margin-top: -5px;
+}
+
+.footer-upper-right-image{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.footer-lower{
+    width: 340px;
+    height: 20px;
+    gap: 5px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    width: 80px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.start p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #B1B1B1;
+
+}
+
+.mid {
+    width: 55px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.mid p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    color: #7A7F8C;
+}
+
+.footer-lower-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.footer-lower-icon{
+    margin-top: -2px;
+}

@@ -1,0 +1,228 @@
+.shopping{
+    width: 330px;
+    height: 259px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 20px;
+}
+
+.shopping-cart{
+    width: 330px;
+    height: 161px;
+    gap: 5px;
+    opacity: 0px;
+    
+}
+
+.shopping-cart .box-inside-textbox{
+    background: linear-gradient(114.92deg, #E6EEFF 34.14%, #FAFCFF 105.26%);
+
+}
+.shopping-cart-bags{
+    margin-top: -90px;
+    margin-left: 10px;
+}
+
+.shopping-cart .box-inside-textbox{
+    width: 250px;
+    height: 141px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+}
+
+.shopping-cart-bags .box-inside-textbox{
+    width: 230px;
+    height: 71px;
+    padding: 10px 15px 10px 15px;
+    gap: 11px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+}
+
+.shopping-cart-bags-image{
+    margin-top: -90px;
+    margin-left: 10px;
+}
+
+.shopping-cart-bags-products{
+    width: 133.41px;
+    height: 51px;
+    padding: 0px 5px 0px 5px;
+    gap: 7px;
+    opacity: 0px;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+
+.shopping-cart-bags-products-text1{
+    width: 123.41px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+.shopping-cart-bags-products-text1-in{
+    width: 104px;
+    height: 20px;
+    gap: 10px;
+    opacity: 0px;
+    
+}
+.shopping-cart-bags-products-text1-in p{
+    width: 99px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    display: flex;
+    
+}
+.shopping-cart-bags-products-text1-in p span{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    
+}
+
+.shopping-cart-bags-products-text2{
+    width: 123.41px;
+    height: 24px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.shopping-cart-bags-products-text2 p{
+    width: 90px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #949494;
+}
+
+.shopping-text{
+    width: 230px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.shopping-text p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #333333;
+}
+
+.shopping-filters{
+    width: 330px;
+    height: 88px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 10px ;
+}
+.shopping-filters-upper{
+    width: 330px;
+    height: 20px;
+    gap: 0px;
+    justify-content: space-between;
+    display: flex;
+    opacity: 0px;
+}
+.shopping-filters-upper-text{
+    width: 79px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+.shopping-filters-upper-text p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+
+    color: #949494;
+}
+
+.shopping-filters-upper-right{
+    display: flex;
+    gap: 4px;
+}
+
+.shopping-filters-upper-right-text{
+    width: 31px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.shopping-filters-upper-right-text p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #666666;
+    display: flex;
+}
+
+.shopping-filters-lower{
+    width: 330px;
+    height: 58px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.shopping-filters-lower1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.shopping-filters-lower-tag1 .tag{
+    width: 120.15px;
+    height: 24px;
+    gap: 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.shopping-filters-lower-tags .tag{
+    background: #F4F4F4;
+    width: 84px;
+    height: 24px;
+    gap: 5px;
+    opacity: 0px;
+    border: 0px;
+
+}
+
+.shopping-filters-lower-tags .tag-name-in{
+    color: #949494;
+}
+

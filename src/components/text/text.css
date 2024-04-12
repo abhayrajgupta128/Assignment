@@ -1,0 +1,49 @@
+.box-inside{
+    width: 330px;
+    height: 100px;
+    gap: 5px;
+    opacity: 0px;
+}
+
+.box-inside-textbox{
+    width: 250px;
+    height: 80px;
+    padding: 10px 15px 10px 15px;
+    gap: 10px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: linear-gradient(100.24deg, #E6EEFF 13.91%, #FFFFFF 116.73%);
+}
+
+.box-inside-textbox-text{
+    width: 220px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+}
+
+.box-inside-time{
+    width: 330px;
+    height: 15px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.box-inside-time-textbox{
+    width: 310px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #333333;
+}
