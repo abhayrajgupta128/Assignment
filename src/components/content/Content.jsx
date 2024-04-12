@@ -1,8 +1,8 @@
 import React from "react";
 import "./content.css";
-import Text from "../../components/text/Text";
-import Text2 from "../../components/text2/Text2";
-import Text3 from "../../components/text3/Text3";
+import Text from '../text/Text';
+import Text2 from "../text2/Text2";
+import Text3 from "../text3/Text3";
 
 const Content = () => {
   return (

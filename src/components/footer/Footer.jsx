@@ -1,8 +1,6 @@
 import React from 'react'
 import './footer.css'
-import paperclip from "../../assets/paperclip.png";
-import whitearrow from "../../assets/whitearrow.png";
-import logo from "../../assets/Logo.svg";
+import {images} from '../../constants';
 
 const Footer = () => {
   return (
@@ -12,11 +10,11 @@ const Footer = () => {
           <div className='footer-upper-left-text'>
             <p>Type your message</p>
           </div>
-          <div className='footer-upper-left-image'><img src={paperclip} alt="paperclip" /></div>
+          <div className='footer-upper-left-image'><img src={images.paperclip} alt="paperclip" /></div>
         </div>
 
         <div className='footer-upper-right'>
-          <div className='footer-upper-right-image'><img src={whitearrow} alt="arrow" /></div>
+          <div className='footer-upper-right-image'><img src={images.whitearrow} alt="arrow" /></div>
         </div>
       </div>
 
@@ -32,7 +30,7 @@ const Footer = () => {
         </div>
 
         <div className='footer-lower-icon'>
-          <img src={logo} alt="logo" />
+          <img src={images.logo} alt="logo" />
         </div>
         
       </div>

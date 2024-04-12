@@ -1,7 +1,7 @@
 import React from 'react'
 import './text2.css'
 import Tag from '../tag/Tag'
-import arrow from '../../assets/chevron-right.png'
+import {images} from '../../constants';
 
 const Text2 = () => {
 
@@ -25,7 +25,7 @@ const Text2 = () => {
                 <Tag name="Multi"/>
             </div>
             <div className='arrow'>
-                <img src={arrow} alt="arrow" />
+                <img src={images.arrow} alt="arrow" />
             </div>
         </div>
         <div className='tags-in-arrow'></div>

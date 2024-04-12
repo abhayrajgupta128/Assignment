@@ -1,11 +1,8 @@
 import React from 'react'
 import './text3.css'
-import Text from "../../components/text/Text";
-import bag from "../../assets/bag.png"
-import vector from "../../assets/Vector.png"
-import arrow from "../../assets/arrow.png"
-import slider from "../../assets/sliders-horizontal.png"
-import Tag from "../../components/tag/Tag";
+import Text from "../text/Text";
+import Tag from "../tag/Tag";
+import {images} from '../../constants';
 
 const Text3 = () => {
   return (
@@ -17,7 +14,7 @@ const Text3 = () => {
         <div className='shopping-cart-bags'>
           <Text />
           <div className='shopping-cart-bags-image'>
-            <img src={bag} alt="bag" />
+            <img src={images.bag} alt="bag" />
           </div>
           
           <div className='shopping-cart-bags-products'>
@@ -27,13 +24,13 @@ const Text3 = () => {
                 <p>Bags on <span  style={{ marginLeft: '3px' }}>Timpu</span></p>
               </div>
               <div className='shopping-cart-bags-products-text1-image'>
-                <img src={vector} alt="vector" />
+                <img src={images.vector} alt="vector" />
               </div>
             </div>
 
             <div className='shopping-cart-bags-products-text2'>
               <div><p>1123 products </p></div>
-              <div><img src={arrow} alt="arrow" /></div>
+              <div><img src={images.arrow} alt="arrow" /></div>
             </div>
           </div>
         </div>
@@ -52,7 +49,7 @@ const Text3 = () => {
             </div>
 
             <div className='shopping-filters-upper-right'>
-              <div className='shopping-filters-upper-right-image'><img src={slider} alt="slider" /></div>
+              <div className='shopping-filters-upper-right-image'><img src={images.slider} alt="slider" /></div>
               <div className='shopping-filters-upper-right-text'><p>Filter</p></div>
             </div>
 
